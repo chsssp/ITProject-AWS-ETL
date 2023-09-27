@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "terraform-st-track1"
+    bucket         = "myterraform-etl-chsssp"
     key            = "global/s3/terraform.tfstate"
     region         = "us-east-1"
   }
